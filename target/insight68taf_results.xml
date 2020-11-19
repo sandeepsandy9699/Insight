@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="91.71505">
+<testcase classname="Insight68Feature" name="Validate SignIn Functionality" time="41.775026">
+<system-out><![CDATA[Given User is on Insight68 SignIn page......................................passed
+When User provides valid credentials and click on signin button.............passed
+Then User navigated to Dashboard page.......................................passed
+And Logout from Insight application.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insight68Feature" name="Validate the Email Error message text" time="23.202186">
+<system-out><![CDATA[Given User is on Insight68 SignIn page......................................passed
+Then User enter Invalid Email as "".........................................passed
+And Validate Email Error message text.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insight68Feature" name="Validate the Password Error message text" time="26.737838">
+<system-out><![CDATA[Given User is on Insight68 SignIn page......................................passed
+Then User enter valid Email and invalid ""..................................passed
+And validate Password Error message text....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

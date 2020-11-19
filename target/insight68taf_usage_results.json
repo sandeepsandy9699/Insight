@@ -1,0 +1,154 @@
+[
+  {
+    "source": "^User is on Insight(\\d+) SignIn page$",
+    "steps": [
+      {
+        "name": "User is on Insight68 SignIn page",
+        "aggregatedDurations": {
+          "average": 23.378675577,
+          "median": 23.296842513
+        },
+        "durations": [
+          {
+            "duration": 23.296842513,
+            "location": "Insight68SignIn.feature:6"
+          },
+          {
+            "duration": 21.866822681,
+            "location": "Insight68SignIn.feature:13"
+          },
+          {
+            "duration": 24.972361538,
+            "location": "Insight68SignIn.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^validate Password Error message text$",
+    "steps": [
+      {
+        "name": "validate Password Error message text",
+        "aggregatedDurations": {
+          "average": 0.024629816,
+          "median": 0.024629816
+        },
+        "durations": [
+          {
+            "duration": 0.024629816,
+            "location": "Insight68SignIn.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter valid Email and invalid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enter valid Email and invalid \"\"",
+        "aggregatedDurations": {
+          "average": 0.94823952,
+          "median": 0.94823952
+        },
+        "durations": [
+          {
+            "duration": 0.94823952,
+            "location": "Insight68SignIn.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Logout from Insight application$",
+    "steps": [
+      {
+        "name": "Logout from Insight application",
+        "aggregatedDurations": {
+          "average": 5.444348788,
+          "median": 5.444348788
+        },
+        "durations": [
+          {
+            "duration": 5.444348788,
+            "location": "Insight68SignIn.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate Email Error message text$",
+    "steps": [
+      {
+        "name": "Validate Email Error message text",
+        "aggregatedDurations": {
+          "average": 0.098707196,
+          "median": 0.098707196
+        },
+        "durations": [
+          {
+            "duration": 0.098707196,
+            "location": "Insight68SignIn.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter Invalid Email as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enter Invalid Email as \"\"",
+        "aggregatedDurations": {
+          "average": 0.504815339,
+          "median": 0.504815339
+        },
+        "durations": [
+          {
+            "duration": 0.504815339,
+            "location": "Insight68SignIn.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User provides valid credentials and click on signin button$",
+    "steps": [
+      {
+        "name": "User provides valid credentials and click on signin button",
+        "aggregatedDurations": {
+          "average": 1.704638537,
+          "median": 1.704638537
+        },
+        "durations": [
+          {
+            "duration": 1.704638537,
+            "location": "Insight68SignIn.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User navigated to Dashboard page$",
+    "steps": [
+      {
+        "name": "User navigated to Dashboard page",
+        "aggregatedDurations": {
+          "average": 10.517057805,
+          "median": 10.517057805
+        },
+        "durations": [
+          {
+            "duration": 10.517057805,
+            "location": "Insight68SignIn.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

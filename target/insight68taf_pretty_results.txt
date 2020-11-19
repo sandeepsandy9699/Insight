@@ -1,0 +1,37 @@
+Feature: Insight68Feature
+  User should be SignIn with valid credentials and do all functionality
+
+  @FTC_1 @FTC
+  Scenario: Validate SignIn Functionality                           # Insight68SignIn.feature:5
+    Given User is on Insight68 SignIn page                          # StepDefinition.user_is_on_Insight_SignIn_page(int)
+    When User provides valid credentials and click on signin button # StepDefinition.user_provides_valid_credentials_and_click_on_signin_button()
+    Then User navigated to Dashboard page                           # StepDefinition.user_navigated_to_Dashboard_page()
+    And Logout from Insight application                             # StepDefinition.logout_from_Insight_application()
+
+  @FTC_2 @FTC
+  Scenario Outline: Validate the Email Error message text # Insight68SignIn.feature:12
+    Given User is on Insight68 SignIn page
+    Then User enter Invalid Email as "<Email>"
+    And Validate Email Error message text
+
+    Examples: 
+
+  @FTC @FTC_2
+  Scenario Outline: Validate the Email Error message text # Insight68SignIn.feature:19
+    Given User is on Insight68 SignIn page                # StepDefinition.user_is_on_Insight_SignIn_page(int)
+    Then User enter Invalid Email as ""                   # StepDefinition.user_enter_Invalid_Email_as(String)
+    And Validate Email Error message text                 # StepDefinition.validate_Email_Error_message_text()
+
+  @FTC_3 @FTC
+  Scenario Outline: Validate the Password Error message text # Insight68SignIn.feature:22
+    Given User is on Insight68 SignIn page
+    Then User enter valid Email and invalid "<Password>"
+    And validate Password Error message text
+
+    Examples: 
+
+  @FTC @FTC_3
+  Scenario Outline: Validate the Password Error message text # Insight68SignIn.feature:29
+    Given User is on Insight68 SignIn page                   # StepDefinition.user_is_on_Insight_SignIn_page(int)
+    Then User enter valid Email and invalid ""               # StepDefinition.user_enter_valid_Email_and_invalid(String)
+    And validate Password Error message text                 # StepDefinition.validate_Password_Error_message_text()

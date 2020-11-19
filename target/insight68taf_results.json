@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8808262,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate SignIn Functionality",
+        "description": "",
+        "id": "insight68feature;validate-signin-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 803330334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23296842513,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Insight68 SignIn page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "68",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_is_on_Insight_SignIn_page(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1704638537,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User provides valid credentials and click on signin button",
+            "match": {
+              "location": "StepDefinition.user_provides_valid_credentials_and_click_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10517057805,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to Dashboard page",
+            "match": {
+              "location": "StepDefinition.user_navigated_to_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5444348788,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Logout from Insight application",
+            "match": {
+              "location": "StepDefinition.logout_from_Insight_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@FTC_1"
+          },
+          {
+            "line": 4,
+            "name": "@FTC"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2060242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the Email Error message text",
+        "description": "",
+        "id": "insight68feature;validate-the-email-error-message-text;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 729780352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21866822681,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Insight68 SignIn page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "68",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_is_on_Insight_SignIn_page(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 504815339,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter Invalid Email as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.user_enter_Invalid_Email_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98707196,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate Email Error message text",
+            "match": {
+              "location": "StepDefinition.validate_Email_Error_message_text()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@FTC"
+          },
+          {
+            "line": 11,
+            "name": "@FTC_2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1240275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Validate the Password Error message text",
+        "description": "",
+        "id": "insight68feature;validate-the-password-error-message-text;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 791366791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24972361538,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is on Insight68 SignIn page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "68",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_is_on_Insight_SignIn_page(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 948239520,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter valid Email and invalid \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.user_enter_valid_Email_and_invalid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24629816,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "validate Password Error message text",
+            "match": {
+              "location": "StepDefinition.validate_Password_Error_message_text()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@FTC"
+          },
+          {
+            "line": 21,
+            "name": "@FTC_3"
+          }
+        ]
+      }
+    ],
+    "name": "Insight68Feature",
+    "description": "User should be SignIn with valid credentials and do all functionality",
+    "id": "insight68feature",
+    "keyword": "Feature",
+    "uri": "Insight68SignIn.feature"
+  }
+]

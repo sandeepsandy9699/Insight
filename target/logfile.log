@@ -1,0 +1,63 @@
+2020-11-10 16:21:15 INFO  Hooks:19 - **********************************************
+2020-11-10 16:21:15 INFO  Hooks:20 -  Started Working on Scenario : Validate SignIn Functionality
+2020-11-10 16:21:15 INFO  Hooks:21 - **********************************************
+2020-11-10 16:21:15 INFO  PropertyFileLoader:43 - loaded the property file
+2020-11-10 16:21:15 INFO  WebDriverManager:39 - Initializing Driver :chrome
+2020-11-10 16:21:39 INFO  SignInPage:58 - Enters email as : devendra.b@spsoftglobal.com on SignInPage
+2020-11-10 16:21:39 INFO  SeleniumHelper:734 - Into enterText by using input text devendra.b@spsoftglobal.com and locator element :[[ChromeDriver: chrome on XP (66058427300d10a24382b159271d3749)] -> xpath: //input[@placeholder='Email']]
+2020-11-10 16:21:39 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:21:39 INFO  SeleniumHelper:744 - Enter text: devendra.b@spsoftglobal.com
+2020-11-10 16:21:39 INFO  SignInPage:63 - Enters password as : devendra on SignInPage
+2020-11-10 16:21:39 INFO  SeleniumHelper:734 - Into enterText by using input text devendra and locator element :[[ChromeDriver: chrome on XP (66058427300d10a24382b159271d3749)] -> xpath: //input[@placeholder='Password']]
+2020-11-10 16:21:39 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:21:40 INFO  SeleniumHelper:744 - Enter text: devendra
+2020-11-10 16:21:40 INFO  SignInPage:68 - Clicking on SignIn Button on SignInPage
+2020-11-10 16:21:40 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:21:40 INFO  SeleniumHelper:803 - Click on SignIn Button on SignInPage is clicked
+2020-11-10 16:21:45 INFO  SignInPage:89 - validate Dashboard Label Text on DashboardPage
+2020-11-10 16:21:45 INFO  SignInPage:91 - Dashboard Label Text is    Dashboard
+2020-11-10 16:21:55 INFO  SignInPage:104 - Clicking on User avatar icon on SignInPage
+2020-11-10 16:21:55 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:21:55 INFO  SeleniumHelper:803 - Click on User avatar icon on SignInPage is clicked
+2020-11-10 16:21:55 INFO  SignInPage:109 - Clicking on SignOut button on SignInPage
+2020-11-10 16:21:55 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:21:56 INFO  SeleniumHelper:803 - Click on SignOut button on SignInPage is clicked
+2020-11-10 16:21:56 INFO  Hooks:27 - **********************************************
+2020-11-10 16:21:56 INFO  Hooks:28 -  Completed Working on Scenario : Validate SignIn Functionality
+2020-11-10 16:21:56 INFO  Hooks:29 - **********************************************
+2020-11-10 16:21:56 INFO  Hooks:19 - **********************************************
+2020-11-10 16:21:56 INFO  Hooks:20 -  Started Working on Scenario : Validate the Email Error message text
+2020-11-10 16:21:56 INFO  Hooks:21 - **********************************************
+2020-11-10 16:21:56 INFO  WebDriverManager:39 - Initializing Driver :chrome
+2020-11-10 16:22:18 INFO  SignInPage:58 - Enters email as :  on SignInPage
+2020-11-10 16:22:18 INFO  SeleniumHelper:734 - Into enterText by using input text  and locator element :[[ChromeDriver: chrome on XP (72a2fa8c07e539597f7a96075c50f566)] -> xpath: //input[@placeholder='Email']]
+2020-11-10 16:22:18 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:22:19 INFO  SeleniumHelper:744 - Enter text: 
+2020-11-10 16:22:19 INFO  SignInPage:68 - Clicking on SignIn Button on SignInPage
+2020-11-10 16:22:19 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:22:19 INFO  SeleniumHelper:803 - Click on SignIn Button on SignInPage is clicked
+2020-11-10 16:22:19 INFO  SignInPage:74 - validate Email address Error Message text 
+2020-11-10 16:22:19 INFO  SignInPage:97 - validate Toast message text 
+2020-11-10 16:22:19 INFO  Hooks:27 - **********************************************
+2020-11-10 16:22:19 INFO  Hooks:28 -  Completed Working on Scenario : Validate the Email Error message text
+2020-11-10 16:22:19 INFO  Hooks:29 - **********************************************
+2020-11-10 16:22:20 INFO  Hooks:19 - **********************************************
+2020-11-10 16:22:20 INFO  Hooks:20 -  Started Working on Scenario : Validate the Password Error message text
+2020-11-10 16:22:20 INFO  Hooks:21 - **********************************************
+2020-11-10 16:22:20 INFO  WebDriverManager:39 - Initializing Driver :chrome
+2020-11-10 16:22:45 INFO  SignInPage:58 - Enters email as : devendra.b@spsoftglobal.com on SignInPage
+2020-11-10 16:22:45 INFO  SeleniumHelper:734 - Into enterText by using input text devendra.b@spsoftglobal.com and locator element :[[ChromeDriver: chrome on XP (d4d7a2365f42696e31b9c0aa18f26f26)] -> xpath: //input[@placeholder='Email']]
+2020-11-10 16:22:45 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:22:45 INFO  SeleniumHelper:744 - Enter text: devendra.b@spsoftglobal.com
+2020-11-10 16:22:45 INFO  SignInPage:63 - Enters password as :  on SignInPage
+2020-11-10 16:22:45 INFO  SeleniumHelper:734 - Into enterText by using input text  and locator element :[[ChromeDriver: chrome on XP (d4d7a2365f42696e31b9c0aa18f26f26)] -> xpath: //input[@placeholder='Password']]
+2020-11-10 16:22:45 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:22:45 INFO  SeleniumHelper:744 - Enter text: 
+2020-11-10 16:22:45 INFO  SignInPage:68 - Clicking on SignIn Button on SignInPage
+2020-11-10 16:22:45 INFO  SeleniumHelper:137 - element is present
+2020-11-10 16:22:46 INFO  SeleniumHelper:803 - Click on SignIn Button on SignInPage is clicked
+2020-11-10 16:22:46 INFO  SignInPage:97 - validate Toast message text 
+2020-11-10 16:22:46 INFO  SignInPage:81 - validate Blank Password Toast message text 
+2020-11-10 16:22:46 INFO  Hooks:27 - **********************************************
+2020-11-10 16:22:46 INFO  Hooks:28 -  Completed Working on Scenario : Validate the Password Error message text
+2020-11-10 16:22:46 INFO  Hooks:29 - **********************************************
